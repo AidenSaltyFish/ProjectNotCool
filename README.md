@@ -6,11 +6,8 @@ This is a course project in fulfillment of requirement of [course 02806, Social 
 This website is developed via Hugo, with [template from Robert Austin](https://github.com/zerostaticthemes/hugo-winston-theme) and edited a little with love by Kewei Du.
 
 ProjectNotCool is fully open-source. Please download the [notebook](https://drive.google.com/file/d/1RnmoW1rNsnXen8nB24EXZ4HX8rHVlyuB/view?usp=sharing) for more information.
-<<<<<<< HEAD
 
 View the website deployed by Netlify [here](https://project-not-cool.netlify.app/).
-=======
->>>>>>> origin/master
 
 # Structure
 Project NotCool contains three main parts. Each part holds a topic based on different perspective.
@@ -91,12 +88,9 @@ When working with data one should always be skeptical how real one dataset is re
 To combine multiple datasets we did not use genuine data but simulated with possible values, this could possibly influence the machine learning model, and indicate false interrelationships within features.
 
 # References
-<<<<<<< HEAD
 [YRBSS main page](https://www.cdc.gov/healthyyouth/data/yrbs/index.htm)
 
 [NYC school survey homepage](https://www.schools.nyc.gov/about-us/reports/school-quality/nyc-school-survey)
 
 E. Segel and J. Heer, "Narrative Visualization: Telling Stories with Data," in IEEE Transactions on Visualization and Computer Graphics, vol. 16, no. 6, pp. 1139-1148, Nov.-Dec. 2010, doi: 10.1109/TVCG.2010.179.
-=======
-E. Segel and J. Heer, "Narrative Visualization: Telling Stories with Data," in IEEE Transactions on Visualization and Computer Graphics, vol. 16, no. 6, pp. 1139-1148, Nov.-Dec. 2010, doi: 10.1109/TVCG.2010.179.
->>>>>>> origin/master
+
