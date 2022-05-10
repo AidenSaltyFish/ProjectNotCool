@@ -13,10 +13,13 @@ Geo-plot doesn't show the map? Don't panic! Click the top-right button and choos
 First let’s go with the spatial of high schools in NYC and their statistics with respect to each borough.
 
 ## Geographical Distribution
+Bar Chart below shows the number of high schools in each borough.
+![IMAGE](/part_2/part_2_high_school_distribution_borough.svg/)
+
 An overview for distributions of high schools and population in NYC with respect to five boroughs. You can play with the layers using the button on the right top corner.
 
 <iframe
-    src="https://raw.githack.com/AidenSaltyFish/ProjectNotCool/main/content/plots/bokeh.html"
+    src="https://rawcdn.githack.com/AidenSaltyFish/ProjectNotCool/5a0a99e585d0aa5e42b05e258423eb4c35aa1045/static/part_2/part_2_high_school_overview.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="500"
@@ -27,6 +30,16 @@ An overview for distributions of high schools and population in NYC with respect
 
 ## School Scoring
 ![IMAGE](/part_2/part_2_score_on_items.svg/)
+
+<iframe
+    src="https://rawcdn.githack.com/AidenSaltyFish/ProjectNotCool/5a0a99e585d0aa5e42b05e258423eb4c35aa1045/static/part_2/part_2_school_score_yearly_change.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
 
 ## Comments
 With outstanding amount of schools as well as decent population, Bronx and Manhattan make themselves the best boroughs when comes to the number of school per capita in the borough. Things become a little messy in Queens and Brooklyn. Given top population among boroughs, citizens may have to live  with the fact that getting education nearby would be challenging due to fair expectations on competition.
@@ -39,7 +52,7 @@ New it's time to check the retailers' geographical distributions, and also their
 When comes to number of retailers, it is not surprised that NYC has a huge amount of tobacco retailers in total. Check the geographical information of legally registered tobacco retailers using the map below. You can click the button on top-right of the map for different information related to retailers. By default, you will be looking at the heatmap describing the retailer distribution.
 
 <iframe 
-    src="https://raw.githack.com/AidenSaltyFish/ProjectNotCool/main/content/plots/map.html"
+    src="https://rawcdn.githack.com/AidenSaltyFish/ProjectNotCool/5a0a99e585d0aa5e42b05e258423eb4c35aa1045/static/part_2/part_2_retailer_overview.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="500"
@@ -61,8 +74,17 @@ We defined retailer-high-school ratio as the ratio between the number of retaile
 ![IMAGE](/part_2/part_2_mean_dist_box_kde.svg/)
 
 ## Geographical Information
-
 As usual, top-right button on the map offers you more options to review. By default, you are viewing the retailer-high-school ratio in each borough, and the mean distance from each high school to its nearest five retailers, shown by the radius of each circle.
+
+<iframe
+    src="https://rawcdn.githack.com/AidenSaltyFish/ProjectNotCool/5a0a99e585d0aa5e42b05e258423eb4c35aa1045/static/part_2/part_2_school_vs_retailer.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
 
 
 ## Comments
