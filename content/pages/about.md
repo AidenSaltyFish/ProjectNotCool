@@ -8,7 +8,7 @@ menu:
 
 # SIXIAN ZUO
 ### Who Is She?
-She is currently a Master student in Technical University of Denmark in Human-centered Artificial Intelligence(HCAI), with a cute student ID of ***s210365***. 
+She is currently a Master student in Technical University of Denmark in Human-centered Artificial Intelligence(HCAI), with a cute student ID of ***s210365***. She would keep silent here, since she has done enough for the project.
 
 ### Her Jobs
 - Data processing for part I, II and III

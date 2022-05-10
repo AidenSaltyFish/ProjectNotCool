@@ -35,9 +35,6 @@ To operate on a sufficient dataset, we extracted YRBSS results from 2007, becaus
 
 The data cleaning and preprocessing procedures are scattered through the following sections, including but not limited to filter needed columns, encoding boroughs and binarize values. Please refer to the specific section to see what we have done on these datasets and some basic stats.
 
-# References
-E. Segel and J. Heer, "Narrative Visualization: Telling Stories with Data," in IEEE Transactions on Visualization and Computer Graphics, vol. 16, no. 6, pp. 1139-1148, Nov.-Dec. 2010, doi: 10.1109/TVCG.2010.179.
-
 # Main Libraries
 pandas | geopandas | shapely | numpy | matplotlib | seaborn | folium | Bokeh
 
@@ -77,13 +74,17 @@ Classic bar plot and line chart are always solid. Box plot gives a visual summar
 ### What Is Good
 Franking speaking, we are satisfied with the topic of the project. Having had a friend who addicted himself to cigarette, we are happy to have the chance to dig into a problem that we actually care about. 
 
-About the project contents, we do believe that it contains a large volume of work with decent analysis on three individual topics related to the project. In total ... . We do appreciate our time spent on the project by generating better analysis and reading experiences.
+About the project contents, we do believe that it contains a large volume of work with decent analysis on three individual topics related to the project. In total we presented more than 30 plots in our project, as well as large amount of explanations. We do appreciate our time spent on the project by generating better analysis and reading experiences.
 
-Diving into the data is always the toughest part, and we have successfully cracked the mystery inside with plenty of labor understanding them. Some data came in the form of questionnaire, where
-we had to pay extra work finding the explanation to each answer. To make things worse, data from different years came with different sets of answer, for which we had to do a large amount of data cleaning and merging.
+Diving into the data is always the toughest part, and we have successfully cracked the mystery inside with plenty of labor understanding them. Some data came in the form of questionnaire, where we had to pay extra work finding the explanation to each answer. To make things worse, data from different years came with different sets of answer, for which we had to do a large amount of data cleaning and merging.
 
-Given large amount of visualization, we did a nice job delivering them in a variant and interactive way. 
+Given large amount of visualization, we did a nice job delivering them in a various and interactive way. Tools such as *folium* and *Bokeh* libraries for interactive plots are applied for better visual effect. We made a great effort on creating interactive plots, especially for the geo-plots. We believe that we have achieved
+our goal on visualizations at present.
 
-Abundant explanatory texts also ensure that readers can reach our insight in a fast pace. 
+Picking a right template for website producing also contributes to the overall visual effect of the project thus boost reading experience. Abundant explanatory texts also ensure that readers can reach our insight in a fast pace.
 
 ### What Is To Improve
+
+
+# References
+E. Segel and J. Heer, "Narrative Visualization: Telling Stories with Data," in IEEE Transactions on Visualization and Computer Graphics, vol. 16, no. 6, pp. 1139-1148, Nov.-Dec. 2010, doi: 10.1109/TVCG.2010.179.
