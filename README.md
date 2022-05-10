@@ -5,6 +5,8 @@ This is a course project in fulfillment of requirement of [course 02806, Social 
 
 This website is developed via Hugo, with [template from Robert Austin](https://github.com/zerostaticthemes/hugo-winston-theme) and edited a little with love by Kewei Du.
 
+ProjectNotCool is fully open-source. Please download the [notebook](https://drive.google.com/file/d/1ykkw18hjVBviKf2QHy8mfVOYu9uG6nhM/view?usp=sharing) for more information.
+
 # Structure
 Project NotCool contains three main parts. Each part holds a topic based on different perspective.
 
@@ -18,15 +20,17 @@ Geographically based, part II targets to find out the relation between the spati
 
 
 # DataSets
-Tobacco control is always a heated topic within sustainability, especially the smoking behaviors among teeangers. It is part of the UN's sustainable goal to regulate the average age of tobacco users, and to avoid teenagers to smoke with full care and support.
+Tobacco control is always a heated topic within sustainability, especially the smoking behaviors among teenagers. It is part of the UN's sustainable goal to regulate the average age of tobacco users, and to avoid teenagers to smoke with full care and support.
 
 In this project we are going to analyze NYC high school students' smoking behaviors, and to be more specific, how old are they do they start smoking. To dive deep on this issue, we combined three open dataset: the USA Youth Risk Behavior Surveillance Survey results, the NYC School Survey results, the 2019 NYC high school directory, and 2019 NYC licensed tobacco retailers.
 
-The first two are survey results gathered from students, where YRBSS dataset contains in total 500,000 high school students' individual responses every other year from 1991 to 2019 all across USA, and NYC School Survey gives statistics of over 1000 schools of 5 boroughs in NYC every year aiming to evaluate the school's quality. With NYC high school directory we can focus on the high schools students only, and tobbaco retailers help to further expand our vision to see how commercialization of tobacco relates to exact smoking behaviors of teenagers.
+The first two are survey results gathered from students, where YRBSS dataset contains in total 500,000 high school students' individual responses every other year from 1991 to 2019 all across the USA, and NYC School Survey gives statistics of over 1000 schools of 5 boroughs in NYC every year aiming to evaluate the school's quality. With NYC high school directory we can focus on the high schools students only, and tobacco retailers help to further expand our vision to see how commercialization of tobacco relates to exact smoking behaviors of teenagers.
 
 To operate on a sufficient dataset, we extracted YRBSS results from 2007, because NYC School Survey started from 2007, and the NYC school survey in 2017 to 2019 because questions and answers have been consistent within these three years.
 
 The data cleaning and preprocessing procedures are scattered through the following sections, including but not limited to filter needed columns, encoding boroughs and binarize values. Please refer to the specific section to see what we have done on these datasets and some basic stats.
+
+Please download our dataset [here](https://drive.google.com/drive/folders/122jAkm4oYHYRQC7MlH8WIQv9WTonou61).
 
 # Main Libraries
 pandas | geopandas | shapely | numpy | matplotlib | seaborn | folium | Bokeh
