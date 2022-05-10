@@ -1,7 +1,7 @@
 ---
 title: "Part I: Youth, Tobacco and More"
 date: 2022-05-07
-description: YRBSS provides all around records on teenagers’ risk behaviors, just as in our common sense: drinking alcohol, physical fights, exercise and diet, mental health, sexual behaviors… and of course, smoking.  There are extensive possibilities to dig in, so you can easily get an idea how NYC high school students behave in terms of smoking: such as how many of them do they smoke, how often do they smoke and how the number of teenage smokers change with time.
+description: "YRBSS provides all around records on teenagers’ risk behaviors, just as in our common sense: drinking alcohol, physical fights, exercise and diet, mental health, sexual behaviors… and of course, smoking.  There are extensive possibilities to dig in, so you can easily get an idea how NYC high school students behave in terms of smoking: such as how many of them do they smoke, how often do they smoke and how the number of teenage smokers change with time."
 ---
 
 # Say hi to YRBSS
