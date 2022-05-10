@@ -5,7 +5,7 @@ This is a course project in fulfillment of requirement of [course 02806, Social 
 
 This website is developed via Hugo, with [template from Robert Austin](https://github.com/zerostaticthemes/hugo-winston-theme) and edited a little with love by Kewei Du.
 
-ProjectNotCool is fully open-source. Please download the [notebook](https://drive.google.com/file/d/1ykkw18hjVBviKf2QHy8mfVOYu9uG6nhM/view?usp=sharing) for more information.
+ProjectNotCool is fully open-source. Please download the [notebook](https://drive.google.com/file/d/1RnmoW1rNsnXen8nB24EXZ4HX8rHVlyuB/view?usp=sharing) for more information.
 
 # Structure
 Project NotCool contains three main parts. Each part holds a topic based on different perspective.
