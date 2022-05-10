@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Part II : Retailers and More - Project Not Cool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.eb3078abeef56308663604a43072656a85df84cd9395444c673b4fa0bf882fa6.css">
+  
+
+  
+    <meta name="description" content="Geographically based, part II targets to demonstrate the spatial distribution of high schools and that of registered tobacco retailers. Overviews of high schools and tobacco retailers in NYC with respect to each borough will be presented in an interactive way. We will discuss the relation at the end of this part via geographical data analysis."/>
+    <meta property="og:title" content="Part II : Retailers and More"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="/posts/part_2/"/>
+    
+    <meta property="og:description" content="Geographically based, part II targets to demonstrate the spatial distribution of high schools and that of registered tobacco retailers. Overviews of high schools and tobacco retailers in NYC with respect to each borough will be presented in an interactive way. We will discuss the relation at the end of this part via geographical data analysis."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@zerostaticio"/>
+    <meta name="twitter:creator" content="@zerostaticio"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="menu-main-mobile" class="menu-main-mobile">
+    <ul class="menu">
+        
+        
+            
+                <li class="menu-item-authors">
+                    <a href="/pages/about/">Authors</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-contents">
+                    <a href="/posts/">Contents</a>
+                </li>
+            
+        
+            
+                <li class="menu-item-outline">
+                    <a href="/outline/">Outline</a>
+                </li>
+            
+        
+    </ul>
+</div>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="/">Project Not Cool</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-authors">
+                <a href="/pages/about/">Authors</a>
+            </li>
+        
+            <li class="menu-item-contents">
+                <a href="/posts/">Contents</a>
+            </li>
+        
+            <li class="menu-item-outline">
+                <a href="/outline/">Outline</a>
+            </li>
+        
+    </ul>
+  </div>
+  <div id="toggle-menu-main-mobile" class="hamburger-trigger">
+    <button class="hamburger">Menu</button>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Part II : Retailers and More<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <h1 id="introduction">Introduction</h1>
+<p>One natural thought when comes to the factors contributing to youth tobacco issue would be like this: students of schools in the areas with more tobacco retailers must have easier accesses to the cigarettes, hence are more likely to be tempted. But are the high schools in the boroughs with higher retailer rate really closer to the retailers? We are trying to analysis the geographical pattern of high schools and registered tobacco retailers in this part.</p>
+<p>Geo-plot doesn&rsquo;t show the map? Don&rsquo;t panic! Click the top-right button and choose a map tile layer!</p>
+<h1 id="overview-of-high-schools">Overview of High Schools</h1>
+<p>First let’s go with the spatial of high schools in NYC and their statistics with respect to each borough.</p>
+<h2 id="geographical-distribution">Geographical Distribution</h2>
+<p>An overview for distributions of high schools and population in NYC with respect to five boroughs. You can play with the layers using the button on the right top corner.</p>
+<iframe
+    src="https://raw.githack.com/AidenSaltyFish/ProjectNotCool/main/content/plots/bokeh.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+<h2 id="school-scoring">School Scoring</h2>
+<p><img src="/part_2/part_2_score_on_items.svg/" alt="IMAGE"></p>
+<h2 id="comments">Comments</h2>
+<p>With outstanding amount of schools as well as decent population, Bronx and Manhattan make themselves the best boroughs when comes to the number of school per capita in the borough. Things become a little messy in Queens and Brooklyn. Given top population among boroughs, citizens may have to live  with the fact that getting education nearby would be challenging due to fair expectations on competition.</p>
+<h1 id="overview-of-registered-tobacco-retailers">Overview of Registered Tobacco Retailers</h1>
+<p>New it&rsquo;s time to check the retailers&rsquo; geographical distributions, and also their data on each borough.</p>
+<h2 id="geographical-distribution-1">Geographical Distribution</h2>
+<p>When comes to number of retailers, it is not surprised that NYC has a huge amount of tobacco retailers in total. Check the geographical information of legally registered tobacco retailers using the map below. You can click the button on top-right of the map for different information related to retailers. By default, you will be looking at the heatmap describing the retailer distribution.</p>
+<iframe 
+    src="https://raw.githack.com/AidenSaltyFish/ProjectNotCool/main/content/plots/map.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+<h2 id="comments-1">Comments</h2>
+<p>Given the knowledge that Manhattan ranks as the most famous and recognizable borough in NYC with Wall Street lies on, this borough enjoys the most intense distribution of legal tobacco retailers, seen from both heatmap and per 100k capita plot. Bronx, with the highest crime rate in NYC, keeps its population mild, hence a rather lower density for retailers in this borough than you might expect. This phenomenon also shows less relation between the crime rate with legal tobacco retailer density.</p>
+<h1 id="are-they-related">Are They Related?</h1>
+<p>At the end of this part, we would like to come back to the question: are the high schools in the boroughs with higher retailer rate really closer to the retailers?</p>
+<p>We defined retailer-high-school ratio as the ratio between the number of retailers and number of high schools. This ratio is defined to describe the density of retailers in each borough and serves the purpose as a general criteria for measuring the rate of retailers in this borough. The closeness between high school and retailers is determined by the mean distance from each high school to its closet five retailers.</p>
+<h2 id="statistical-information">Statistical Information</h2>
+<p><img src="/part_2/part_2_mean_dist_bar.svg/" alt="IMAGE">
+<img src="/part_2/part_2_mean_dist_box_kde.svg/" alt="IMAGE"></p>
+<h2 id="geographical-information">Geographical Information</h2>
+<p>As usual, top-right button on the map offers you more options to review. By default, you are viewing the retailer-high-school ratio in each borough, and the mean distance from each high school to its nearest five retailers, shown by the radius of each circle.</p>
+<h2 id="comments-2">Comments</h2>
+<p>Interestingly, inverse relation is told by the geo-information. Roughly scanning the map, you would find that high schools on Staten Island shares a large mean distance to its nearest retailers, while the retailer/school ratio is highest among all the boroughs; you can also check the counter-intuitive phenomenon in Manhattan and Bronx, where the mean distances are kept short with low retailer/school ratios.</p>
+<p>We can dive into the phenomenon from another perspective. Please switch the map to markers of high schools and heatmap for retailers by clicking top-right button on the map and ticking these two layers. On Staten Island, things could attribute to the uneven and unmatched distribution between school and retailers. Most of the retailers, seen from heatmap, are located in the north, while some high schools locate themselves away from north, in the middle or even south of the island. As for Manhattan, though with a lower retail/school ratio, the distribution patterns for them are geographically similar, resulting in a much smaller mean distance from schools to retailers.</p>
+<p>Both mean distance to retailers and retail/school ratio cannot be solid criteria for school scoring, since the calculation does not involve the relationship between schools and legal tobacco retailers. However, out of reasonable suspect, we will go deeper into the problem in the next section using machine learning model via random forest algorithm.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/AidenSaltyFish/ProjectNotCool" title="github" target="_blank" rel="noopener">
+          <img src="/images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/bundle.min.5993fcb11c07dea925a3fbd58c03c7f1857197c35fccce3aa963a12c0b3c9960.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>
