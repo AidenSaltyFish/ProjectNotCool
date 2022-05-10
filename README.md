@@ -1,11 +1,16 @@
 # ProjectNotCool
 
-# ReadMe
+# Introduction
 This is a course project in fulfillment of requirement of [course 02806, Social data analysis and visualization of Semester Spring 2022, in Technical University of Denmark](https://github.com/suneman/socialdata2022/wiki).
 
 This website is developed via Hugo, with [template from Robert Austin](https://github.com/zerostaticthemes/hugo-winston-theme) and edited a little with love by Kewei Du.
 
-ProjectNotCool is fully open-source. Please download the [notebook](https://drive.google.com/file/d/1ykkw18hjVBviKf2QHy8mfVOYu9uG6nhM/view?usp=sharing) for more information.
+ProjectNotCool is fully open-source. Please download the [notebook](https://drive.google.com/file/d/1RnmoW1rNsnXen8nB24EXZ4HX8rHVlyuB/view?usp=sharing) for more information.
+<<<<<<< HEAD
+
+View the website deployed by Netlify [here](https://project-not-cool.netlify.app/).
+=======
+>>>>>>> origin/master
 
 # Structure
 Project NotCool contains three main parts. Each part holds a topic based on different perspective.
@@ -17,7 +22,7 @@ YRBSS provides all around records on teenagers’ risk behaviors, just as in our
 Geographically based, part II targets to find out the relation between the spatial distribution of high schools and that of registered tobacco retailers. Overviews of high schools and tobacco retailers in NYC with respect to each borough will be presented in an interactive way. We will discuss the relation at the end of this part via geographical data analysis.
 
 ### Part III : Engine Starts
-
+Given the analysis we did in previous parts, this one will show how the dataset for training was constructed according to previous analysis, so that we can combine risk behaviors, school scoring and school-to-retailer distances to predict whether a student would start smoking early using Random Forest model.
 
 # DataSets
 Tobacco control is always a heated topic within sustainability, especially the smoking behaviors among teenagers. It is part of the UN's sustainable goal to regulate the average age of tobacco users, and to avoid teenagers to smoke with full care and support.
@@ -30,7 +35,7 @@ To operate on a sufficient dataset, we extracted YRBSS results from 2007, becaus
 
 The data cleaning and preprocessing procedures are scattered through the following sections, including but not limited to filter needed columns, encoding boroughs and binarize values. Please refer to the specific section to see what we have done on these datasets and some basic stats.
 
-Please download our dataset [here](https://drive.google.com/drive/folders/122jAkm4oYHYRQC7MlH8WIQv9WTonou61).
+You can download our dataset [here](https://drive.google.com/drive/folders/122jAkm4oYHYRQC7MlH8WIQv9WTonou61).
 
 # Main Libraries
 pandas | geopandas | shapely | numpy | matplotlib | seaborn | folium | Bokeh
@@ -81,7 +86,17 @@ our goal on visualizations at present.
 Picking a right template for website producing also contributes to the overall visual effect of the project thus boost reading experience. Abundant explanatory texts also ensure that readers can reach our insight in a fast pace.
 
 ### What Is To Improve
+When working with data one should always be skeptical how real one dataset is representative of the whole population, and our dataset would not totally avoid bias, either. The dataset could be worked with more advanced statistical techniques to mitigate the bias and reach a more true reflection of everyone.
 
+To combine multiple datasets we did not use genuine data but simulated with possible values, this could possibly influence the machine learning model, and indicate false interrelationships within features.
 
 # References
+<<<<<<< HEAD
+[YRBSS main page](https://www.cdc.gov/healthyyouth/data/yrbs/index.htm)
+
+[NYC school survey homepage](https://www.schools.nyc.gov/about-us/reports/school-quality/nyc-school-survey)
+
 E. Segel and J. Heer, "Narrative Visualization: Telling Stories with Data," in IEEE Transactions on Visualization and Computer Graphics, vol. 16, no. 6, pp. 1139-1148, Nov.-Dec. 2010, doi: 10.1109/TVCG.2010.179.
+=======
+E. Segel and J. Heer, "Narrative Visualization: Telling Stories with Data," in IEEE Transactions on Visualization and Computer Graphics, vol. 16, no. 6, pp. 1139-1148, Nov.-Dec. 2010, doi: 10.1109/TVCG.2010.179.
+>>>>>>> origin/master
