@@ -4,7 +4,7 @@ date: 2022-05-07
 description: "YRBSS provides all around records on teenagers’ risk behaviors, just as in our common sense: drinking alcohol, physical fights, exercise and diet, mental health, sexual behaviors… and of course, smoking.  There are extensive possibilities to dig in, so you can easily get an idea how NYC high school students behave in terms of smoking: such as how many of them do they smoke, how often do they smoke and how the number of teenage smokers change with time."
 ---
 
-# Say hi to YRBSS
+# Say Hi to YRBSS
 YRBSS provides all around records on teenagers’ risk behaviors, just as in our common sense: drinking alcohol, physical fights, exercise and diet, mental health, sexual behaviors… and of course, smoking.  Since our focus would be NYC alone since 2007, let’s first see how many records we can extract, and how many are there in each survey year.
 ![IMAGE](/part_1/part_1_1.svg/)
 ![IMAGE](/part_1/part_1_2.svg/)
@@ -18,7 +18,7 @@ Then let’s see the composition in each year. See the two figures below: One ab
 
 The 5 boroughs are not equally sampled through the years. The numbers of records in each borough each year show no steady pattern, although the yearly proportion proves that the boroughs are sampled with similar weights through years, which usually Bronx, Brooklyn and Manhatten are sampled more.
 
-# Say hi to the students
+# Say Hi to the Students
 For any survey on large scale population, we care about the people’s inherent differences and how these differences influence their other features. Hence let’s check on the demographic distribution about the gender, race, and age distribution of the students taking the survey.
 
 <iframe
@@ -38,7 +38,7 @@ Respondants of the 5 boroughs don't share the same race distribution. Bronx, Man
 #### Age/Grade
 The dataset is sampled in a similar distribution of age groups across boroughs, where 14-17 year-old participants takes part in the majority. Age 14, 15, 16 and 17 each contributes roughly 20%-25% of the total samples in each borough.
 But these are not enough. We have noticed some nuances in race and gender so let’s dive deeper.
-You may wonder if the racial distribution of each borough twists in certain years perhaps due to immigrants, and here is the result
+You may wonder if the racial distribution of each borough twists in certain years perhaps due to immigrants, and here is the result:
 ![IMAGE](/part_1/part_1_5_race_year.svg/)
 
 Seeing from the line chart of the four ethnic groups in each borough, the race distribution of each borough remains rather steady through the years. Only few intersections, such as Black/African American with Hispanic/Latino in Brooklyn and White with Hispanic/Latino in Staten Island are shown, implying small fluctuations of the racial diversity.
@@ -51,14 +51,24 @@ You may then wonder is there any chance that kids in one borough is so clever th
 
 It can be seen that in all boroughs, grade 9 students are centered around 14 years old, grade 10 around 15 years old, and so on and so forth. There are no signs of early or late schooling in any borough, because their pattern of grade-age distribution is almost the same.
 
-# Shew – smoke!
-## Smokin’ hot
+# Shew – Smoke!
+## Smokin’ Hot
 YRBSS records multiple tobacco related questions, so first thing first—how many high school students actually tried smoking in each borough? See the lively, colorful map below:
-part_1_pct_smokers
+
+<iframe
+    src="https://rawcdn.githack.com/AidenSaltyFish/ProjectNotCool/50f6706abd698d57bd6bcf39310a7a4ab25abde4/static/part_1/part_1_pct_smokers.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="100%"
+    height="500"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
 Through all the recorded years, Staten Island and Queens reported more high school smokers - nearly 30% of high school students have tried smoking. Smoking alert!
 Bronx, Brooklyn and Manhattan have a similar level of high school smokers, which is lower than the forementioned two boroughs, at about 22%.
 
-## Smokin’ hot everyday
+## Smokin’ Hot Everyday
 For these students who have tried smoking, are they already live with cigarettes or just happen to have tasted it? Let’s see how many days they smoke in the last month:
 
 <iframe
@@ -77,7 +87,7 @@ Bronx shows a higher percentage of those who have smoked for 3 to 5 days. Be car
 The distribution can also bee seen with the bar chart below:
 ![IMAGE](/part_1/part_1_10_1_days_smoke_pct.svg/)
 
-## Infinitely smokin’ hot
+## Infinitely Smokin’ Hot
 YRBSS also asked the students how many cigarettes per day do the students smoke, and surprisingly their options extend to even 20 cigarettes per day! Cigarette, why can’t you just leave that kid be?
 <iframe
     src="https://rawcdn.githack.com/AidenSaltyFish/ProjectNotCool/678ae15f6bef1110c14b703e867ca87dab55c8c6/static/part_1/part_1_cigarettes_perday_smokers.html"
@@ -95,17 +105,20 @@ Manhattan reports the largest percentage of students smoke no more than 1 cigerr
 See also the bar chart to get a feel about how many cigarettes the kids are smoking:
 ![IMAGE](/part_1/part_1_11_1_per_day_pct.svg/)
 
-## Young and beautiful, really?
+## Young and Beautiful, Really?
 See one thing we care the most: when do these high school students start smoking? Through the years the results are a little stunning, that quite a few smoked their first puff even before 8 years old:
-![IMAGE](/part_1/part_1_11_1_per_day_pct.svg/)
+![IMAGE](/part_1/part_1_12_smoke_age_distr.svg/)
 
 Surprisingly, Bronx have significantly larger percentage of students who start smoking before 8 years old, which is about 30%. What's more, the distribution in Bronx is obviously asymmetrical, which leans expands more to younger groups.
 Manhattan has a great proportion of almost 40% of smokers picking up smoking at 13 or 14 years, and compared to other 4 boroughs, an overall older age of smoking acquisition.
-# How time flies!
+
+# How Time Flies!
 Back in 2007, the high school students were territories of the millennials, but those days are gone, and Gen-Z kids are the new trends. With a great change of the whole society and life style, YRBSS also recorded changes of smoking behaviors through the years. Most importantly, fewer and fewer teenagers would try to smoke in the first place. See the slope all along the years:
+
 ![IMAGE](/part_1/part_1_13_time_smokers.svg/)
 
 You can get a more vivid feel of how this changes through time:
+
 <iframe
     src="https://rawcdn.githack.com/AidenSaltyFish/ProjectNotCool/678ae15f6bef1110c14b703e867ca87dab55c8c6/static/part_1/part_1_year_smoking_percentage.html"
     sandbox="allow-same-origin allow-scripts"
@@ -137,7 +150,7 @@ Manhattan remains the lowest heavy smoker rate through the years.
 Heavy smoker rate fluctuates mildly in Brooklyn, with an average of about 10%.
 The heavy smoker rate in Staten Island and Bronx in general raises through the years. This phenomenon partly originated from the decrease in total number of smokers within these boroughs through the years.
 
-# E-cigarette is also cigarettes
+# E-cigarette Is Also Cigarettes
 YRBSS also recorded behaviors on variations of nicotine products such as cigars, chewing tobacco, and new-born products like e-vapor. We wonder if they are all related to regular cigarette, and come and check the plots below of the age distribution of smoking e-vapors and cigars and alike:
 ![IMAGE](/part_1/part_1_15_other.svg/)
 
