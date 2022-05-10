@@ -7,6 +7,8 @@ Smoking is NOT cool at all: it remains the leading cause of preventable disease,
 
 **Good health and well-being** is one of the primary topics in [sustainable development](https://sdg-tracker.org/). Encouraging smoking would be an enormous impedance in terms of achieving the sustainable goals, due to tobacco's science-proved damage to human health. Inspired by our friend, we are wondering how many high schoolers out there are just like him. We would aldo like to dig further on studying the factors contributing to their addiction to cigarette via data-driven methods.
 
+In this project we are going to analyze NYC high school students' smoking behaviors, and to be more specific, how old are they do they start smoking. To dive deep on this issue, we combined three open dataset: the USA Youth Risk Behavior Surveillance Survey results, the NYC School Survey results, the 2019 NYC high school directory, and 2019 NYC licensed tobacco retailers.
+
 We picked *interactive magazine* as our presentation genre and divided our work into three parts, where you can read each of them as a blog. Through the journey exploring the insight of data with us, you would encounter many interesting plots: some of them are very scientific and some are fairly plain to understand, some are interactive to click and some are static to enjoy. Try to play with each of them to see you can find something!
 
 It is highly recommended to quickly scanning the manual in [Outline page]({{< ref "/outline/_index.md" >}}), which states the structure of the whole project, as well as some tricks in playing with the data and their visualizations. If you are fully prepared, please refer to [Content page]({{< ref "/posts/_index.md" >}}) for everything we have done for the project.
