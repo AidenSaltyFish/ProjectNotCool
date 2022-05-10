@@ -16,12 +16,12 @@ ProjectNotCool is fully open-source. Please visit the [Github page](https://gith
 # Structure
 Project NotCool contains three main parts. Each part holds a topic based on different perspective.
 
-## [Part I : ]({{< ref "../posts/part_1.md" >}})
+## [Part I : Youth, Tobacco and More]({{< ref "../posts/part_1.md" >}})
 
 ## [Part II : High Schools, Retailers and More]({{< ref "../posts/part_2.md" >}})
 Geographically based, part II targets to find out the relation between the spatial distribution of high schools and that of registered tobacco retailers. Overviews of high schools and tobacco retailers in NYC with respect to each borough will be presented in an interactive way. We will discuss the relation at the end of this part via geographical data analysis.
 
-## [Part III : ]({{< ref "../posts/part_3.md" >}})
+## [Part III : Engine Starts]({{< ref "../posts/part_3.md" >}})
 
 
 # DataSets
@@ -39,14 +39,7 @@ The data cleaning and preprocessing procedures are scattered through the followi
 E. Segel and J. Heer, "Narrative Visualization: Telling Stories with Data," in IEEE Transactions on Visualization and Computer Graphics, vol. 16, no. 6, pp. 1139-1148, Nov.-Dec. 2010, doi: 10.1109/TVCG.2010.179.
 
 # Main Libraries
-- pandas 
-- geopandas
-- shapely
-- numpy
-- matplotlib
-- seaborn
-- folium
-- Bokeh
+pandas | geopandas | shapely | numpy | matplotlib | seaborn | folium | Bokeh
 
 # Genre
 Built on the *Magazine* and *Annotated Graph* genres introduced in Segal and Heer paper, we applied several methods on visual presentation and narrative presentation to better help us tell an attractive and logical story.
@@ -72,6 +65,13 @@ Markers are used only once for marking high school locations on the map. They ar
 Heatmap provides readers with straight and decent experience, which is the perfect choice for identifying where something occurs, and demonstrate areas of high and low density. We used heatmap for describing the retailer distribution and density. We found that heatmap shows its excellence also at the time when plotting the exact location is not important, or not possible: it does a good job leaving readers with quick impressions.
 
 Combined with a time slider bar, choropleth in time series offers a power tool for visualization over time. Dataset with data from multiple years are shown with this type of visualization mostly. Through dragging the top bar, readers can check the differences across the timescale.
+
+### Statistical Plots
+Statistical plots are implemented in various ways. *Bokeh* library is applied for making interactive plots in particular.
+
+The stacked bar plot, with fixed vertical length and flexible partial length for each element representing the accounted portion, makes itself much repetitive appearance in Part I. This type of plot offers an easy way for readers to compare among data from different items, say boroughs, while sometimes people may think pie chart is a little clumsy when comes to compare across.
+
+Classic bar plot and line chart are always solid. Box plot gives a visual summary of the data , through which readers can quickly identify mean values, the dispersion of the data set, and signs of skewness. It is useful when we are talking about data distributions.
 
 # Discussion
 ### What Is Good
