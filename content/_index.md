@@ -11,7 +11,7 @@ In this project we are going to analyze NYC high school students' smoking behavi
 
 We picked *interactive magazine* as our presentation genre and divided our work into three parts, where you can read each of them as a blog. Through the journey exploring the insight of data with us, you would encounter many interesting plots: some of them are very scientific and some are fairly plain to understand, some are interactive to click and some are static to enjoy. Try to play with each of them to see you can find something!
 
-It is highly recommended to quickly scanning the manual in [Outline page]({{< ref "/outline/_index.md" >}}), which states the structure of the whole project, as well as some tricks in playing with the data and their visualizations. If you are fully prepared, please refer to [Content page]({{< ref "/posts/_index.md" >}}) for everything we have done for the project.
+We sincerely hope that you would grasp some current situation of youth tobacco use in the Usnited States. It is highly recommended to quickly scanning the manual in [Outline page]({{< ref "/outline/_index.md" >}}), which states the structure of the whole project, as well as some tricks in playing with the data and their visualizations. If you are fully prepared, please refer to [Content page]({{< ref "/posts/_index.md" >}}) for everything we have done for the project.
 
 Have fun and hope you enjoy our stop-motion!
 

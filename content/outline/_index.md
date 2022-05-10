@@ -17,6 +17,7 @@ ProjectNotCool is fully open-source. Please visit the [Github page](https://gith
 Project NotCool contains three main parts. Each part holds a topic based on different perspective.
 
 ## [Part I : Youth, Tobacco and More]({{< ref "../posts/part_1.md" >}})
+YRBSS provides all around records on teenagers’ risk behaviors, just as in our common sense: drinking alcohol, physical fights, exercise and diet, mental health, sexual behaviors… and of course, smoking.  There are extensive possibilities to dig in, so you can easily get an idea how NYC high school students behave in terms of smoking: such as how many of them do they smoke, how often do they smoke and how the number of teenage smokers change with time.
 
 ## [Part II : High Schools, Retailers and More]({{< ref "../posts/part_2.md" >}})
 Geographically based, part II targets to find out the relation between the spatial distribution of high schools and that of registered tobacco retailers. Overviews of high schools and tobacco retailers in NYC with respect to each borough will be presented in an interactive way. We will discuss the relation at the end of this part via geographical data analysis.
